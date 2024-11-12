@@ -1,0 +1,21 @@
+.footer {
+
+
+    &:not(.no-absolute) {
+        position: absolute;
+        bottom: 1px; // cancel 1px for the border-top
+        left: 0;
+        right: 0;
+    }    
+
+    height: 72px;
+
+    border-top: 1px solid #f5f5f5;
+
+    &-content {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

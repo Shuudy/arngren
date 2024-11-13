@@ -1,0 +1,44 @@
+
+
+.products {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    .product {
+        //background-color: red;
+        width: 192px;
+
+        &-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: #f5f5f5;
+            height: 192px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &-infos {
+            $spacing: 10px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            gap: $spacing;
+            margin-top: $spacing;
+
+            a.button {
+                padding: 8px 12px;
+            }
+        }
+    }
+
+}

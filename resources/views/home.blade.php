@@ -25,7 +25,7 @@
         <div class="section-product-products products">
             @for($i = 0; $i < 4; $i++)
             <div class="product">
-                <a class="product-image" href="#">
+                <a class="product-image" href="{{ route('product') }}">
                     <img src="https://www.kompressor-bike.com/wp-content/uploads/2020/09/velo-vtt.png" alt="">
                 </a>
                 <div class="product-infos">
@@ -35,7 +35,7 @@
                     <div class="product-price">
                         24.99 €
                     </div>
-                    <a class="button" href="#">En savoir plus</a>
+                    <a class="button" href="{{ route('product') }}">En savoir plus</a>
                 </div>
             </div>
             @endfor

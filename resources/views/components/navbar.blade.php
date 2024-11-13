@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="navbar-right">
-            <a href="#about">À propos de nous</a>
+            <a href="{{ route('home') }}#about">À propos de nous</a>
             <a href="{{ route('products') }}">Nos produits</a>
             <a href="{{ route('contact') }}" class="button">Contactez-nous</a>
 

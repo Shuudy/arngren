@@ -35,6 +35,13 @@
                 </div>
                 @endfor                
             </div>
+            <div class="paginations">
+                <a href="#" class="paginations-page">Précédent</a>
+                <a href="#" class="paginations-page active">1</a>
+                <a href="#" class="paginations-page">2</a>
+                <a href="#" class="paginations-page">3</a>
+                <a href="#" class="paginations-page">Suivant</a>
+            </div>
 
         </div>        
     </div>

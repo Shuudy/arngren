@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('body')
-
+<x-navbar/>
 <div class="page-main">    
 
     <div class="flex">

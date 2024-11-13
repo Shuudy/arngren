@@ -1,0 +1,20 @@
+.contact {
+
+
+    &-content {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 16px;
+
+        display: flex;
+
+        justify-content: center;
+        gap: 32px;
+        
+        margin-top: 32px;
+
+        @media screen and (max-width: 670px) {
+            flex-direction: column-reverse;
+        }
+    }
+}

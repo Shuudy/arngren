@@ -1,14 +1,11 @@
+$footer-height: 72px;
 .footer {
-    
+    position: absolute;
+    bottom: 1px; // cancel 1px for the border-top
+    left: 0;
+    right: 0;
 
-    &:not(.no-absolute) {
-        position: absolute;
-        bottom: 1px; // cancel 1px for the border-top
-        left: 0;
-        right: 0;
-    }    
-
-    height: 72px;
+    height: $footer-height;
 
     border-top: 1px solid #f5f5f5;
 

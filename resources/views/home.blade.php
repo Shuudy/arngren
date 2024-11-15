@@ -46,5 +46,5 @@
         </div>
     </div>
 </div>
-<x-footer absolute="no"/>
+<x-footer/>
 @endsection

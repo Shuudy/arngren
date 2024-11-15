@@ -5,7 +5,7 @@
 
 <div class="page-main">    
 
-    <div class="flex">     
+    <div class="flex flex-jc">     
 
         <div class="productd-image">
             <div class="productd-image-big">

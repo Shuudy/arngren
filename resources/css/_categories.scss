@@ -24,4 +24,9 @@
 .flex {
     display: flex;
     gap: 32px;
+
+    &-jc {
+        justify-content: center;
+    }
 }
+

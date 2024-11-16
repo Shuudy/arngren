@@ -10,5 +10,9 @@
 .page-right {
     h1 {
         margin-top: 0;
+
+        @media screen and (max-width: 600px) {
+            text-align: center;
+        }
     }
 }

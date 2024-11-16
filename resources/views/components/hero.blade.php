@@ -5,7 +5,7 @@
             <h1>ARNGREN,</h1>
             <h2>Une solution pour vos <span>besoins</span></h2>
 
-            <a href="#" class="button">Acheter maintenant</a>
+            <a href="{{ route('products') }}" class="button">Acheter maintenant</a>
         </div>
 
         <div class="hero-right">
